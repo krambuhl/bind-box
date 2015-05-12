@@ -1,0 +1,19 @@
+{
+  "name": "bind-box",
+  "description": "A box full of strategies for binding objects of all sorts",
+  "homepage": "https://github.com/krambuhl/bind-box",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "tape tests/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:krambuhl/bind-box.git"
+  },
+  "devDependencies": {
+    "tap-spec": "^2.1.2",
+    "tape": "^3.0.3"
+  }
+}
